@@ -1,0 +1,180 @@
+[
+    {
+        "name": "LGBT / Pride",
+        "colors": [ "ed2224", "f99621", "f1eb1b", "0c9b49", "3954a5", "93288e" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "1" },
+            { "color": "2", "position": 27 },
+            { "color": "2", "position": 33 },
+            { "color": "3" },
+            { "color": "4" },
+            { "color": "5" }
+        ]
+    },
+    {
+        "name": "Bisexual",
+        "colors": [ "ff0080", "8c4799", "0032a0" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "1" },
+            { "color": "2" }
+        ]
+    },
+    {
+        "name": "Transgender",
+        "colors": [ "55cdfc", "f7a8b8", "ffffff" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "1" },
+            { "color": "2", "position": 45 },
+            { "color": "2", "position": 55 },
+            { "color": "1" },
+            { "color": "0" }
+        ],
+        "simpleStops": [
+            { "color": "0" },
+            { "color": "1" },
+            { "color": "2" }
+        ]
+    },
+    {
+        "name": "POC Inclusive",
+        "colors": [ "000000", "784f17", "ed2224", "f99621", "f1eb1b", "0c9b49", "3954a5", "93288e" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "1" },
+            { "color": "2" },
+            { "color": "3" },
+            { "color": "4", "position": 48 },
+            { "color": "4", "position": 52 },
+            { "color": "5" },
+            { "color": "6" },
+            { "color": "7" }
+        ]
+    },
+    {
+        "name": "Pansexual",
+        "colors": [ "ff1e8c", "ffe61d", "1fb3fd" ],
+        "stops": [
+            { "color": "0", "position": 10 },
+            { "color": "1", "position": 40 },
+            { "color": "1", "position": 60 },
+            { "color": "2", "position": 85 },
+            { "color": "2", "position": 100 }
+        ]
+    },
+    {
+        "name": "Asexual",
+        "colors": [ "000000", "a3a2a0", "ffffff", "652e81" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "1" },
+            { "color": "2", "position": 60 },
+            { "color": "2", "position": 70 },
+            { "color": "3" }
+        ]
+    },
+    {
+        "name": "Intersex",
+        "colors": [ "ffd900", "9d00fd" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "0", "position": 10 },
+            { "color": "1" },
+        
+            { "color": "0", "position": 90 },
+            { "color": "0", "position": 100}
+        ],
+        "simpleStops": [
+            { "color": "0" },
+            { "color": "1" }
+        ]
+    },
+    {
+        "name": "Genderfluid",
+        "colors": [ "ff78a6", "ffffff", "be14d7", "000000", "323cbf" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "1", "position": 23 },
+            { "color": "1", "position": 28 },
+            { "color": "2" },
+            { "color": "3", "position": 73 },
+            { "color": "3", "position": 78 },
+            { "color": "4" }
+        ]
+    },
+    {
+        "name": "Genderqueer",
+        "colors": [ "b99ade", "ffffff", "6b8e3a" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "1", "position": 45 },
+            { "color": "1", "position": 55 },
+            { "color": "2" }
+        ]
+    },
+    {
+        "name": "Lesbian",
+        "colors": [ "d52c00", "ffffff", "a20262" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "1", "position": 45 },
+            { "color": "1", "position": 55 },
+            { "color": "2" }
+        ]
+    },
+    {
+        "name": "Gay Man",
+        "colors": [ "078d6f", "ffffff", "7bade2", "3f1a79" ],
+        "stops": [
+            { "color": "0" },
+            { "color": "1", "position": 45 },
+            { "color": "1", "position": 55 },
+            { "color": "2", "position": 70 },
+            { "color": "3" }
+        ]
+    },
+    {
+        "name": "Agender",
+        "colors": [ "000000", "cdcdcd", "ffffff", "baf484"],
+        "stops": [
+            { "color": "0" },
+            { "color": "1", "position": 15 },
+            { "color": "2", "position": 22 },
+            { "color": "2", "position": 28 },
+            { "color": "3" },
+            { "color": "2", "position": 72 },
+            { "color": "2", "position": 78 },
+            { "color": "1", "position": 85 },
+            { "color": "0" }
+        ],
+        "simpleStops": [
+            { "color": "0" },
+            { "color": "1" },
+            { "color": "2" },
+            { "color": "3" }
+        ]
+    },
+    {
+        "name": "Aromantic",
+        "colors": [ "3caa41", "ffffff", "000000"],
+        "stops": [
+            { "color": "0" },
+            { "color": "1", "position": 45 },
+            { "color": "1", "position": 55 },
+            { "color": "2" }
+        ]
+    },
+    {
+        "name": "Nonbinary",
+        "colors": [ "fddb00", "ffffff", "9c5cd4", "000000"],
+        "stops": [
+            { "color": "0" },
+            { "color": "1", "position": 30 },
+            { "color": "1", "position": 36 },
+            { "color": "2" },
+            { "color": "3" }
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+@import 'styles';
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: $padding-small;
+    width: 100%;
+
+    // &:after {
+    //     content: '';
+    //     display: block;
+    //     height: 10px;
+    //     width: 100%;
+    //     background: white;
+    //     border-radius: 10px;
+    //     margin-top: $padding;
+    // }
+
+    @media(min-width: $breakpoint-md) {
+        padding: $padding;
+    }
+}
+
+.headerInner {
+    width: 100%;
+    max-width: $page-width;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: $font-display;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    
+    @media(min-width: $breakpoint-md) {
+        flex-direction: row;
+        font-size: 3rem;
+        align-items: baseline;
+    }
+}
+
+.title {
+    margin: 0;
+    margin-bottom: $padding;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+
+    @media(min-width: $breakpoint-md) {
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .character {
+        animation: oscillate 1s alternate infinite ease-in-out;
+        position: relative;
+    }
+}
+
+.credit {
+    color: #ff0080;
+    text-decoration: none;
+    position: relative;
+
+    &:after {
+        content: '';
+        display: block;
+        height: 7px;
+        width: 100%;
+    }
+
+    &:hover:after { 
+        border-radius: 10px;
+        background: #ff0080;
+    }
+}
+
+@keyframes oscillate {
+    from {
+        transform: translateY(-4px);
+    }
+
+    to {
+        transform: translateY(4px);
+    }
+}
