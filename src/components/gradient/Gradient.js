@@ -8,6 +8,7 @@ export default class Gradient extends React.Component {
         super(props)
 
         this.overlayRef = React.createRef()
+        this.checkboxRef = React.createRef()
 
         this.state = {
             showSimpleGradient: false,
@@ -110,8 +111,10 @@ export default class Gradient extends React.Component {
         }
     }
 
-    copy = () => {
-        console.log(this)
+    copy = event => {
+        // if toggling checkbox
+        if(event.target == this.checkboxRef.current) return
+
         window.navigator.clipboard.writeText(this.getGradient())
 
         this.overlayRef.current.animate([
@@ -139,6 +142,7 @@ export default class Gradient extends React.Component {
                 <div className={ styles.name }>{ this.props.gradient.name }</div>
                 { this.props.gradient.simpleStops && 
                     <input 
+                        ref={ this.checkboxRef }
                         type="checkbox"
                         className={ styles.simpleGradientToggle }
                         checked={ this.state.showSimpleGradient }
